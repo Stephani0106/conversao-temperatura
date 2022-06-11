@@ -1,6 +1,6 @@
 FROM node:16.15.0
 
-WORKDIR /application
+WORKDIR /app
 
 # Copia os arquivos package-lock.json e package.json para o diretório atual
 COPY ./package*.json ./
